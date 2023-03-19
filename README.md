@@ -16,9 +16,10 @@ It also requires [`ffmpeg`](https://ffmpeg.org/) to be installed
 
 Edit the variables `EL_key` and `OAI_key` in `config.json`
 
-`EL_key` is the API key for [ElevenLabs](https://beta.elevenlabs.io/). Found in Profile Settings
+`EL_key` is the API key for [ElevenLabs](https://beta.elevenlabs.io/). Found in Profile Settings(soon be replace with voicevox)
 
-`OAI_key` is the API key for OpenAI. Found [here](https://platform.openai.com/account/api-keys)
+
+`OAI_key` is the API key for OpenAI. Found [here](https://platform.openai.com/account/api-keys)(soon be replace with other AI model)
 
 Then run `run.py`
 
@@ -38,7 +39,7 @@ You can change the voice by changing `voice` in `config.json`. You can find the 
 
 
 
-# Live Demo
+# Live Demo (soon be replace with my own demo)
 [Livestream 1](https://www.youtube.com/watch?v=rSrkpsWZjyg)
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=rSrkpsWZjyg
@@ -57,9 +58,14 @@ I used [This VTS plugin](https://lualucky.itch.io/vts-desktop-audio-plugin) and 
 Please note that this project was created solely for fun and as part of a YouTube video, so the quality and reliability of the code may be questionable. Also, after the completion of the project checklist, there won't be much activity in updating or improving this repository. Nonetheless, we hope that this project can serve as a source of inspiration for anyone interested in building their own AI Vtuber.
 
 - [x] Clean up
+- [ ] add suport for stt
+- [ ] allow easy change of chatbot AI
+- [ ] train for blender Q&A
 - [ ] GUI
 - [ ] Executables (exe, bat or sh)
 - [ ] Extra features (maybe) (Prompt injection protection, questions only mode, virtual audio)
+- [ ] add suport for other tts (voicevox)
+
 
 # License
 This program is under the [MIT license](/LICENSE) 
